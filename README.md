@@ -1,4 +1,11 @@
 # TesteUDS
+# Dados para criação do banco
+
+spring.datasource.username=INT_ACP
+spring.datasource.password=INT_ACP
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
+
 # Script de Banco
 
 CREATE TABLE UDS_ADICIONAL (	
